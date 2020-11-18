@@ -149,10 +149,13 @@ System.out.println((" ".repeat(halved)+"*".repeat(size)).substring(i-1,halved+(2
 public static void main(String[]args){
 
 SuitSpinner d= new SuitSpinner();
-d.drawHearts(20);
-d.drawSpades(20);
-d.drawDiamonds(20);
-d.drawClovers(20);
- 
+for (int i=30;i>0;i-=2){
+
+d.drawHearts(i);
+d.drawSpades(i);
+d.drawClovers(i);
+d.drawDiamonds(i);
+
+}
  	
 }}
