@@ -1,3 +1,20 @@
+/** 
+the word argument will be outputted as a "word pyramid."
+The following program will output:
+
+L
+Lo
+Loo
+Looo
+Loooo
+Looooo
+Loooooo
+Looooooo
+Loooooool
+Looooooola
+
+**/
+
 public class wordpyramid {
 	public void encode(String word){
     
