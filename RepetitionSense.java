@@ -2,6 +2,19 @@
 // If so, replace that letter with an asterisk.
 // If not, leave it alone!
 
+/** Results:
+
+******t
+rat
+r*********p**t
+
+from:
+p.replaceIt("Lalaaat");
+p.replaceIt("rat");
+p.replaceIt("reeeaaaaaapeat");
+
+**/
+
 
 public class RepetitionSense{
 
