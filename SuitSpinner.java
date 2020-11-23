@@ -1,5 +1,7 @@
-class SuitSpinner{
+//This class spins suits of a typical deck (diamonds, spades, clovers, and hearts) with nested for loops.
+//The standard int size is 20. Have fun! :)
 
+class SuitSpinner{
 
 public void drawHearts(int size){
   System.out.print("\n");
